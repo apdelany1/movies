@@ -3,3 +3,23 @@
     padding: 0;
     margin: 0;
 }
+
+.container {
+    width: 100vw;
+    height:100vh;
+    background: linear-gradient(to right, #200122, #6f0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(253, 152, 0, 0.164);
+    border: 1px dashed rgba(21, 255, 0, 0.377);
+}
+
+.logo {
+    width: 50px;
+    float: left;
+    margin: 15px 45px;
+}
